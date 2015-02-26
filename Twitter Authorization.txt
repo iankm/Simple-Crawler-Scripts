@@ -1,0 +1,6 @@
+OAuth Signing Results
+Important: This will only be valid for a few minutes. Also remember the cURL command will actually execute the request.
+
+Signature base string GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2F&oauth_consumer_key%3DXKaaACzJXk4SKrAUBtdNY4KDV%26oauth_nonce%3D2f67fc2f2be6c9575f69a3871fd00753%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1424983189%26oauth_version%3D1.0
+Authorization header Authorization: OAuth oauth_consumer_key="XKaaACzJXk4SKrAUBtdNY4KDV", oauth_nonce="2f67fc2f2be6c9575f69a3871fd00753", oauth_signature="lTVrFjWrDpPe5gvK0suPI4usNnM%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1424983189", oauth_version="1.0"
+cURL command curl --get 'https://api.twitter.com/1.1/' --header 'Authorization: OAuth oauth_consumer_key="XKaaACzJXk4SKrAUBtdNY4KDV", oauth_nonce="2f67fc2f2be6c9575f69a3871fd00753", oauth_signature="lTVrFjWrDpPe5gvK0suPI4usNnM%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1424983189", oauth_version="1.0"' --verbose
